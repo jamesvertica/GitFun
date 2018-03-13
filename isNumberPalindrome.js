@@ -1,5 +1,5 @@
-/*
-Make a copy of the original input and assign units digit using modulo and place in reversed version
+
+/*Make a copy of the original input and assign units digit using modulo and place in reversed version
 until done, compare the reversed number with the original. If equal, return true.
 Steps
 1
@@ -21,14 +21,17 @@ Steps
   number copy = 0
 5
   1331 = 1331 return true
-const isNumberPalindrome = (number) => {
-  // copy input number to build reversed number
-  // init reversed number and digit
-  // iterate until copy is 0 or less
-    // current digit is copy % 10
-    // multiply reversed number by 10 and add the digit
-    // divide the number copy by 10 and remove decimals
-  }
-  return reversed === number;
-}
- */
+  */
+ const isNumberPalindrome = (number) => {
+  let nums = ['number']
+  let reversed = nums.reverse();
+  
+  if (nums === reversed) {
+    return true;
+  } else 
+   return false ;
+  };
+  
+  console.log(isNumberPalindrome(1331));
+
+  //STILL WORKING ON PROBLEM - JUST WANTED TO PRACTICE GIT!
