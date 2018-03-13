@@ -32,10 +32,12 @@ bar
 ""
 bar
 MATCH! continue with next string (prefix is completely gone...)
+
+*/
 const longestCommonPrefix = arrayOfStrings => {
   // initialize the "longest prefix" with the entire first string
+
   // iterate from the 2nd string onward
-    // shorten the prefix from the end until there's a match (which is guaranteed when the string
-        is empty)
+    // shorten the prefix from the end until there's a match 
  };
-*/
+
