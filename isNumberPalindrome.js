@@ -34,4 +34,4 @@ Steps
   
   console.log(isNumberPalindrome(1331));
 
-  //STILL WORKING ON PROBLEM - JUST WANTED TO PRACTICE GIT!
+  //Alt Answer? 
